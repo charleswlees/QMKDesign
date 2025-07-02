@@ -2,15 +2,20 @@
 
 Charlie Lees
 
-This project is for a nice GUI to design a ZMK or QMK keyboard using a web GUI.\
-This is just a personal project (and an excuse for me to buy more keyboards which use both QMK and ZMK)
+QMK Design is a web app to design QMK firmware for a contiguous* keyboard using a GUI rather than programming it all by hand.\
+Both the front and back-end servers are linked within this repository as sub-modules.
+
+<ins>Frontend</ins>
+* Built in TypeScript using Vite.
+* Run with the Docker Image within the Frontend repository.
+
+<ins>Backend</ins>
+* Built in Python
+* Hosted using AWS DynamoDB, AWS S3 Buckets, and AWS Lambda.
 
 
-Frontend
-* Planning on doing this in REACT
-
-Backend
-* Going to do this in dotnet
 
 
+------
+\*I hope to add split keyboard functionality eventually
 
