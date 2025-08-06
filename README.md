@@ -2,7 +2,7 @@
 
 Charlie Lees
 
-QMK Design is a web app to design QMK firmware for a contiguous* keyboard using a GUI rather than programming it all by hand.\
+QMK Design is a web app to design QMK firmware for a keyboard using a GUI rather than using the QMK CLI\
 Both the front and back-end servers are linked within this repository as sub-modules.
 
 ![](./Screenshot.png)
@@ -15,3 +15,4 @@ Both the front and back-end servers are linked within this repository as sub-mod
 * Built in Python with Flask
 * Hosted on AWS with Fargate
 
+All references used are included in the README of each respective sub-module
