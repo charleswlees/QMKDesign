@@ -1,3 +1,6 @@
 [submodule "qmkdesign-frontend"]
 	path = qmkdesign-frontend
 	url = git@github.com:charleswlees/qmkdesign-frontend
+[submodule "qmkdesign-backend"]
+	path = qmkdesign-backend
+	url = git@github.com:charleswlees/qmkdesign-backend
